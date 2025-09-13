@@ -33,6 +33,26 @@ int main() {
         printf("Esquerda\n");
         k++;
     } while (k <= 8);
+    printf("\n");
+
+    // -------------------------------
+    // Cavalo: movimento em L
+    // 2 casas para baixo + 1 casa para esquerda
+    // Estruturas: for + while (loops aninhados)
+    // -------------------------------
+    printf("Movimento do Cavalo:\n");
+
+    // Primeiro loop: movimento vertical (2 casas para baixo)
+    for (int i = 1; i <= 2; i++) {
+        printf("Baixo\n");
+    }
+
+    // Segundo loop: movimento horizontal (1 casa para a esquerda)
+    int passos = 1;
+    while (passos <= 1) {
+        printf("Esquerda\n");
+        passos++;
+    }
 
     return 0;
 }
